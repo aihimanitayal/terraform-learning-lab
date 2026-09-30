@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars and edit, or pass with: terraform apply -var="environment=prod"
+project_name = "my-first-project"
+environment  = "staging"
+features     = ["logging", "monitoring", "alerts"]
